@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/radiant_mojito.mk
+    
+COMMON_LUNCH_CHOICES := \
+    radiant_mojito-eng \
+    radiant_mojito-userdebug \
+    radiant_mojito-user
