@@ -16,5 +16,12 @@
    "target_path" : "vendor/xiaomi/mojito",
    "remote"      : "pixel-devices-blobs",
    "branch"      : "eleven"
+ },
+ {
+   "repository"  : "kdrag0n/proton-clang",
+   "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
+   "branch"      : "master",
+   "clone-depth" : "1",
+   "remote"      : "github"
  }
 ]
