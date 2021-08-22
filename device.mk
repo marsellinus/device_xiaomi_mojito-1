@@ -81,3 +81,6 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
+
+# TWRP
+$(call inherit-product, device/xiaomi/mojito/twrp/twrp.mk)
