@@ -70,6 +70,11 @@ TARGET_ENABLE_MULTI_SENSOR := true
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+    
+# Bloatware
+PRODUCT_PACKAGES += \
+    GCam \
+    GalleryGo \
 
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
