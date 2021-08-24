@@ -76,6 +76,9 @@ PRODUCT_PACKAGES += \
     GCam \
     GalleryGo \
 
+# TWRP
+$(call inherit-product, device/xiaomi/mojito/twrp/twrp.mk)
+
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
