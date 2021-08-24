@@ -76,10 +76,6 @@ PRODUCT_PACKAGES += \
     GCam \
     GalleryGo \
 
-# APNS Config
-PRODUCT_COPY_FILES += \
-    $ (LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
-
 # TWRP
 $(call inherit-product, device/xiaomi/mojito/twrp/twrp.mk)
 
